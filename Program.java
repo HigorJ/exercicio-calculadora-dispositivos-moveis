@@ -9,8 +9,11 @@ public class Program {
         int b = sc.nextInt();
 
         int soma = calc.somar(a, b);
+        int subtracao = calc.subtrair(a, b);
 
         System.out.println("Soma: " + soma);
+        System.out.println("Subtracao: " + subtracao);
+
         sc.close();
     }
 }
